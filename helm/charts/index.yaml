@@ -1,6 +1,45 @@
 apiVersion: v1
 entries:
+  nack:
+  - apiVersion: v2
+    appVersion: 0.22.2
+    created: "2026-04-05T02:43:00.403640502Z"
+    description: A Helm chart for NACK - NATS Controller for Kubernetes
+    digest: 82e3075fe0a53d5bee277d6fde10729deb0d18d3a8bef01453c2ca0f033e9d2f
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - jetstream
+    - cncf
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nack
+    urls:
+    - https://github.com/loveen/k8s/releases/download/nack-0.33.2/nack-0.33.2.tgz
+    version: 0.33.2
   nats:
+  - apiVersion: v2
+    appVersion: 2.12.6
+    created: "2026-04-05T02:43:00.5842021Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 01af11ece2a36e23fc7579b5c60a7d55a88b3a2e44e7bda914ec88f7d51d7896
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats
+    urls:
+    - https://github.com/loveen/k8s/releases/download/nats-2.12.6/nats-2.12.6.tgz
+    version: 2.12.6
   - apiVersion: v2
     appVersion: 2.1.4
     created: "2020-02-24T22:08:45.567838-08:00"
@@ -15,4 +54,81 @@ entries:
     urls:
     - https://github.com/nats-io/k8s/releases/download/v0.1.0/nats-0.1.0.tgz
     version: 0.1.0
-generated: "2020-02-24T22:08:45.566668-08:00"
+  nats-account-server:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-05T02:43:00.795727014Z"
+    description: A Helm chart for the NATS.io JWT Account Server
+    digest: da12885e6074854ce1fad8e1c9e08eb42165a8c9aa7e356206501a6101cb141f
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    - jwt
+    - auth
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats-account-server
+    urls:
+    - https://github.com/loveen/k8s/releases/download/nats-account-server-0.8.1/nats-account-server-0.8.1.tgz
+    version: 0.8.1
+  nats-kafka:
+  - apiVersion: v2
+    appVersion: 1.4.2
+    created: "2026-04-05T02:43:01.004182336Z"
+    description: A multi-connector bridge between NATS and Kafka.
+    digest: d53cb2a3689a5bd27af0ca34b604b9a54aa263b2c9f3548a8e925a1ab69ea273
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats-kafka
+    type: application
+    urls:
+    - https://github.com/loveen/k8s/releases/download/nats-kafka-0.15.4/nats-kafka-0.15.4.tgz
+    version: 0.15.4
+  nats-operator:
+  - apiVersion: v2
+    appVersion: 0.8.3
+    created: "2026-04-05T02:43:01.195034516Z"
+    description: NATS operator creates/configures/manages nats clusters atop Kubernetes
+    digest: aebb7d23ccd6ceec4504563edab263c05acaaa92621e97d60dc62d585890b127
+    home: https://github.com/nats-io/nats-operator
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - addressing
+    - discovery
+    - messaging
+    - nats
+    - operator
+    - pubsub
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats-operator
+    sources:
+    - https://github.com/nats-io/nats-operator
+    urls:
+    - https://github.com/loveen/k8s/releases/download/nats-operator-0.8.3/nats-operator-0.8.3.tgz
+    version: 0.8.3
+  surveyor:
+  - apiVersion: v2
+    appVersion: 0.9.7
+    created: "2026-04-05T02:43:01.374930876Z"
+    description: NATS Monitoring, Simplified.
+    digest: 7b06db935e91a1a952633f45782697b141edb4132c071a4212604a04dbc82412
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: surveyor
+    type: application
+    urls:
+    - https://github.com/loveen/k8s/releases/download/surveyor-0.20.7/surveyor-0.20.7.tgz
+    version: 0.20.7
+generated: "2026-04-05T02:43:01.374941636Z"
